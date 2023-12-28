@@ -1,27 +1,72 @@
+/* Estilos gerais */
 body {
-    background-color: aliceblue;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
-header{
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: #09757A;
+    color: #fff;
+    padding: 15px;
     text-align: center;
-    font-size: large;
-    margin-top: 10px;
-    font-weight: bold;
 }
+
+header img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 15px;
+    width: 200px;
+    height: 200px;
+}
+
+h1 {
+    margin: 0;
+}
+
+.betColor {
+    color: #00A4A6; /* Cor para BET */
+}
+
+/* Estilos para os parágrafos */
 p {
+    padding: 15px;
     text-align: center;
     font-weight: bold;
 }
-.betColor{
-    color:#00A4A6
-}
-.mainImage {
-    width: 50%;
-    height: 50%;
-}
+
+/* Estilos para o formulário incorporado */
 .forms {
-    margin-left: 27.5%;
-    margin-bottom: 10px;
+    width: 100%;
+    max-width: 640px;
+    height: 100vh; /* Defina a altura conforme necessário */
+    margin: 0 auto; /* Centraliza o formulário horizontalmente */
+    display: block; /* Garante que o formulário seja um bloco e centralize corretamente */
 }
-footer{
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #09757A;
+    color: #fff;
     text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Estilos adicionais para dispositivos menores */
+@media only screen and (max-width: 768px) {
+    header {
+        padding: 10px;
+    }
+
+    p {
+        padding: 10px;
+    }
+
+    footer {
+        padding: 5px;
+    }
 }
