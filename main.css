@@ -1,0 +1,25 @@
+
+header{
+    text-align: center;
+    font-size: large;
+    margin-top: 10px;
+    font-weight: bold;
+}
+p {
+    text-align: center;
+    font-weight: bold;
+}
+.betColor{
+    color:#00A4A6
+}
+.mainImage {
+    width: 50%;
+    height: 50%;
+}
+.forms {
+    margin-left: 27.5%;
+    margin-bottom: 10px;
+}
+footer{
+    text-align: center;
+}
